@@ -72,7 +72,7 @@ export const SlideLeft = (delay) => {
 }
 const Services = () => {
     return (
-        <section className="bg-white">
+        <section id="services" className="bg-white">
             <div className="container pb-14 pt-16">
                 <motion.h1
                     variants={FadeUp(.6)}

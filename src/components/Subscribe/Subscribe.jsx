@@ -2,7 +2,7 @@ import { motion } from "framer-motion"
 import { FaBell } from "react-icons/fa"
 const Subscribe = () => {
     return (
-        <section className="bg-[#f7f7f7]">
+        <section id="Subscribe" className="bg-[#f7f7f7]">
             <motion.div
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}

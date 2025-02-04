@@ -2,7 +2,7 @@ import BannerPng from "/assets/banner.png"
 import { motion } from "framer-motion"
 const Banner2 = () => {
     return (
-        <section>
+        <section id="community">
             <div className="container py-14 md:py-24 grid md:grid-cols-2 grid-cols-1 gap-6
          space-y-6 md:space-y-0">
                 {/* banner text */}

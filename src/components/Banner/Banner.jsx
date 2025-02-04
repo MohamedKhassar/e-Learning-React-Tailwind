@@ -6,7 +6,7 @@ import { GrUserExpert } from "react-icons/gr"
 import { MdOutlineAccessTime } from "react-icons/md"
 const Banner = () => {
     return (
-        <section>
+        <section id="about">
             <div className="container py-14 md:py-24 grid md:grid-cols-2 grid-cols-1 gap-8
          space-y-6 md:space-y-0">
                 {/* banner img */}

@@ -14,22 +14,22 @@ const Navbar = () => {
         {
             id: 2,
             title: "Services",
-            link: "#",
+            path: "#services",
         },
         {
             id: 3,
             title: "About Us",
-            link: "#",
+            path: "#about",
         },
         {
             id: 4,
-            title: "Our Team",
-            link: "#",
+            title: "Subscribe",
+            path: "#Subscribe",
         },
         {
             id: 5,
-            title: "Contact Us",
-            link: "#",
+            title: "Community",
+            path: "#community",
         },
     ];
     return (
@@ -63,7 +63,7 @@ const Navbar = () => {
                                     </a>
                                 </li>
                             ))}
-                            <button className="primary-btn">Sign In</button>
+                            <button className="primary-btn max-lg:mt-3">Sign In</button>
                         </ul>
                 </div>
 
