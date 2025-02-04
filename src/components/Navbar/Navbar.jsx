@@ -37,7 +37,7 @@ const Navbar = () => {
             className="container py-10 flex justify-between items-center">
                 {/* logo section */}
                 <div className="">
-                    <h1 className="font-bold text-2xl">MED-learning</h1>
+                    <h1 className="font-bold text-2xl">Med-Learning</h1>
                 </div>
                 {/* menu section */}
                 <div className="hidden lg:block">

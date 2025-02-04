@@ -1,8 +1,8 @@
 import { IoIosArrowRoundForward } from "react-icons/io"
-import Navbar from "../Navbar"
 import Blob from "/assets/blob.svg"
 import HeroPng from "/assets/hero.png"
 import { motion } from "framer-motion"
+import Navbar from "../Navbar/Navbar"
 
 export const FadeUp = (delay) => {
     return {
