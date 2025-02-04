@@ -10,6 +10,7 @@ const Subscribe = () => {
                 <motion.div
                 initial={{ opacity: 0, scale: 0.5 }}
                 whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true }}
                 transition={{duration:.6,ease:"easeInOut"}}
                 className="flex justify-center flex-col">
                     <div
