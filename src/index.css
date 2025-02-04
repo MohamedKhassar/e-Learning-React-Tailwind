@@ -15,8 +15,10 @@ body {
 }
 
 @utility container {
+    @apply mx-auto;
     @variant default {
         padding: 1rem;
+        
     }
 
     @variant sm {
@@ -37,5 +39,5 @@ body {
 }
 
 .primary-btn {
-    @apply inline-block bg-primary text-white font-semibold py-2 px-6 rounded-lg hover:bg-secondary duration-300 cursor-pointer shadow-[0px_10px_8px_-7px_var(--color-primary)] hover:shadow-[0px_10px_8px_-7px_var(--color-secondary)]
+    @apply inline-block bg-primary text-white font-semibold py-3 px-6 rounded-lg hover:bg-secondary duration-300 cursor-pointer shadow-[0px_10px_8px_-7px_var(--color-primary)] hover:shadow-[0px_10px_8px_-7px_var(--color-secondary)]
 }

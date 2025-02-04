@@ -1,4 +1,5 @@
 import { MdMenu } from "react-icons/md";
+import { motion } from "framer-motion"
 
 const Navbar = () => {
     const NavbarMenu = [
@@ -29,8 +30,11 @@ const Navbar = () => {
         },
     ];
     return (
-        <nav className="">
-            <div className="container py-10 flex justify-between items-center max-w-full">
+        <nav className="relative z-20">
+            <motion.div
+            initial={{opacity:0,y:-50}}
+            animate={{opacity:1,y:0}}
+            className="container py-10 flex justify-between items-center">
                 {/* logo section */}
                 <div className="">
                     <h1 className="font-bold text-2xl">MED-learning</h1>
@@ -56,7 +60,7 @@ const Navbar = () => {
                 <div className="lg:hidden">
                     <MdMenu className="text-4xl " />
                 </div>
-            </div>
+            </motion.div>
         </nav>
     )
 }
