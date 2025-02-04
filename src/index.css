@@ -15,7 +15,7 @@ body {
 }
 
 @utility container {
-    @apply mx-auto;
+    @apply mx-auto  px-4;
     @variant default {
         padding: 1rem;
         
