@@ -9,9 +9,11 @@
     --color-dark: #333333;
     --color-dark2: #999999;
 }
-
+html{
+    @apply scroll-smooth
+}
 body {
-    @apply font-poppins
+    @apply font-poppins 
 }
 
 @utility container {
