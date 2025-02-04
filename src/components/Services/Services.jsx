@@ -53,7 +53,7 @@ const ServicesData = [
     },
 ];
 
-const SlideLeft = (delay) => {
+export const SlideLeft = (delay) => {
     return {
         initial: {
             x: 50,
@@ -84,7 +84,9 @@ const Services = () => {
                         <motion.div
                             variants={SlideLeft(service.delay)}
                             initial="initial"
-                            animate="animate"
+                            whileInView={"animate"}
+                            viewport={{ once: true }}
+
                             key={service.id} className="rounded-2xl bg-zinc-100 py-7 flex flex-col items-center gap-3 justify-center hover:bg-zinc-200 transition-[background-color_transform] duration-500 hover:scale-105 cursor-pointer hover:shadow-2xl">
                             <div className="text-4xl">
                                 {service.icon}
